@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AGENT_NUMBER	main.c	24;"	d	file:
+APP_NAME	main.c	18;"	d	file:
+A_GOTO_BALL	rules.h	42;"	d
+A_GOTO_MATEx	rules.h	43;"	d
+A_GOTO_OPPONENTGOAL	rules.h	46;"	d
+A_GOTO_OPPONENTx	rules.h	44;"	d
+A_GOTO_TEAMGOAL	rules.h	45;"	d
+BADIP_ERR	main.c	21;"	d	file:
+BADPORT_ERR	main.c	22;"	d	file:
+BEFORE_KICK_OFF	rules.h	15;"	d
+BEFORE_KICK_OFF	sensor.h	16;"	d
+BIN	Makefile	/^BIN=..\/..\/bin$/;"	m
+CORNER_KICK_L	rules.h	24;"	d
+CORNER_KICK_L	sensor.h	25;"	d
+CORNER_KICK_R	rules.h	25;"	d
+CORNER_KICK_R	sensor.h	26;"	d
+CTAGS	Makefile	/^CTAGS=ctags-exuberant -R .$/;"	m
+DROP_BALL	rules.h	30;"	d
+DROP_BALL	sensor.h	31;"	d
+FLAGS	Makefile	/^FLAGS= -g -Wall -pthread$/;"	m
+FREE_KICK_L	rules.h	22;"	d
+FREE_KICK_L	sensor.h	23;"	d
+FREE_KICK_R	rules.h	23;"	d
+FREE_KICK_R	sensor.h	24;"	d
+GOAL_KICK_L	rules.h	26;"	d
+GOAL_KICK_L	sensor.h	27;"	d
+GOAL_KICK_R	rules.h	27;"	d
+GOAL_KICK_R	sensor.h	28;"	d
+GOAL_L	rules.h	28;"	d
+GOAL_L	sensor.h	29;"	d
+GOAL_R	rules.h	29;"	d
+GOAL_R	sensor.h	30;"	d
+GOT_BALL	rules.h	50;"	d
+GOT_BALL_THRES	rules.c	22;"	d	file:
+KICK_IN_L	rules.h	20;"	d
+KICK_IN_L	sensor.h	21;"	d
+KICK_IN_R	rules.h	21;"	d
+KICK_IN_R	sensor.h	22;"	d
+KICK_OFF_L	rules.h	18;"	d
+KICK_OFF_L	sensor.h	19;"	d
+KICK_OFF_R	rules.h	19;"	d
+KICK_OFF_R	sensor.h	20;"	d
+LIBS	Makefile	/^LIBS=libserver.c libsocket.c errlib.c  rules.c$/;"	m
+LIBSERVER_H	libserver.h	2;"	d
+LIBSOCKET_H	libsocket.h	2;"	d
+MAXLINE	errlib.c	20;"	d	file:
+MAX_MSG_LENGTH	libsocket.h	7;"	d
+MAX_MSG_SIZE	libserver.h	13;"	d
+MAX_N_RULES	rules.h	34;"	d
+MAX_RULE_LENGTH	rules.h	35;"	d
+MAX_TEAMNAME_LENGHT	libserver.h	17;"	d
+MAX_TOKENLENGTH	sensor.c	15;"	d	file:
+NEAR_OPPONENT_GOAL	rules.h	51;"	d
+N_CONDITIONS	rules.h	36;"	d
+N_FLAGS	libserver.h	15;"	d
+N_PLAYERS	libserver.h	16;"	d
+N_RULES	rules.h	39;"	d
+OFFSIDE_L	rules.h	31;"	d
+OFFSIDE_L	sensor.h	32;"	d
+OFFSIDE_R	rules.h	32;"	d
+OFFSIDE_R	sensor.h	33;"	d
+PLAY_ON	rules.h	16;"	d
+PLAY_ON	sensor.h	17;"	d
+PLAY_TIMES	rules.h	13;"	d
+PLAY_TIMES	sensor.h	14;"	d
+POPULATION	main.c	30;"	d	file:
+PORT	libserver.h	10;"	d
+RESULTS_DIR	main.c	27;"	d	file:
+RESULTS_FILE	main.c	28;"	d	file:
+RULES_H	rules.h	2;"	d
+RULE_DIR	main.c	26;"	d	file:
+Receive	libsocket.c	/^int Receive(server_data *server, char *buffer){$/;"	f
+Rule	rules.h	/^typedef struct Rule{$/;"	s
+Rules	rules.h	/^typedef struct Rules{$/;"	s
+SENSE_BODY_STEP_MS	libserver.h	20;"	d
+SENSE_STEP_MS	libserver.h	19;"	d
+SENSOR_H	sensor.h	7;"	d
+SIMULATION_STEP_MS	libserver.h	21;"	d
+STRING_ERR	sensor.c	14;"	d	file:
+Send	libsocket.c	/^int Send( server_data *server, char* buffer ){$/;"	f
+Server_data	libsocket.h	/^typedef struct Server_data{$/;"	s
+TARGET	Makefile	/^TARGET= ittrainer$/;"	m
+TEAMNAME	main.c	19;"	d	file:
+TIMEOUT_TIME	libserver.h	12;"	d
+TIME_OVER	rules.h	17;"	d
+TIME_OVER	sensor.h	18;"	d
+TRAINER_DIR	main.c	25;"	d	file:
+TRAINER_PORT	libserver.h	11;"	d
+TimeoutReceive	libsocket.c	/^int TimeoutReceive(server_data *server, char*buffer, struct timeval *t){$/;"	f
+UCICLE_TIME	libserver.h	14;"	d
+USAGE_ERR	main.c	20;"	d	file:
+_ERRLIB_H	errlib.h	13;"	d
+action	rules.h	/^	int action;$/;"	m	struct:Rule
+action	rules.h	/^	rule action[PLAY_TIMES][MAX_N_RULES];$/;"	m	struct:Rules
+ball	sensor.h	/^	rball_data ball;$/;"	m	union:obj
+closeConnection	libserver.c	/^int closeConnection(server_data *server){$/;"	f
+conditions	rules.h	/^	int conditions[N_CONDITIONS];$/;"	m	struct:Rule
+conn	libserver.c	/^sem_t conn;$/;"	v
+createRulefile	main.c	/^int createRulefile(char *dest){$/;"	f
+createServer	libsocket.c	/^server_data *createServer( char* addr, int port){$/;"	f
+daemon_proc	errlib.c	/^int daemon_proc = 0; \/* set to 0 if stdout\/stderr available, else set to 1 *\/$/;"	v
+destroyServer	libsocket.c	/^int destroyServer(server_data *server){$/;"	f
+err_doit	errlib.c	/^static void err_doit (int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_init	errlib.c	/^void err_init (){$/;"	f
+err_msg	errlib.c	/^void err_msg (const char *fmt, ...)$/;"	f
+err_quit	errlib.c	/^void err_quit (const char *fmt, ...)$/;"	f
+err_ret	errlib.c	/^void err_ret (const char *fmt, ...)$/;"	f
+err_sys	errlib.c	/^void err_sys (const char *fmt, ...)$/;"	f
+evaluateSession	main.c	/^int evaluateSession(){$/;"	f
+flag	sensor.h	/^	rflag_data flag;$/;"	m	union:obj
+fprintRules	rules.c	/^void fprintRules(rules *it_rules, FILE *dest){$/;"	f
+getToken	sensor.c	/^int getToken(char *buffer, char *token){$/;"	f
+initRules	rules.c	/^void initRules(rules *it_rules){$/;"	f
+main	main.c	/^int main(int argc, char * argv[]) {$/;"	f
+nextGeneration	main.c	/^void nextGeneration(){$/;"	f
+obj	sensor.h	/^typedef union obj {$/;"	u
+obj	sensor.h	/^} obj;$/;"	t	typeref:union:obj
+parse	sensor.c	/^int parse(char *mex){$/;"	f
+parseHear	sensor.c	/^int parseHear(char *mex){$/;"	f
+parseInit	sensor.c	/^int parseInit(char *mex){$/;"	f
+parseReconnect	sensor.c	/^int parseReconnect(char *mex){$/;"	f
+parseRule	rules.c	/^int parseRule(char *string, rule *location){$/;"	f
+parseRules	rules.c	/^int parseRules(rules *it_rules, FILE *file){$/;"	f
+parseSee	sensor.c	/^int parseSee(char *mex){$/;"	f
+parseSeeObj	sensor.c	/^int parseSeeObj(char *mex, int time){$/;"	f
+parseSeeObjName	sensor.c	/^int parseSeeObjName(char *mex, obj *tempobj){$/;"	f
+player	sensor.h	/^	rplayer_data player;$/;"	m	union:obj
+printRules	rules.c	/^void printRules(rules *it_rules){$/;"	f
+receiveMsg	libserver.c	/^int receiveMsg(server_data *server, char* buffer){$/;"	f
+receiveTMsg	libserver.c	/^int receiveTMsg(server_data *server, char* buffer, struct timeval *t){$/;"	f
+rule	rules.h	/^} rule;$/;"	t	typeref:struct:Rule
+rules	rules.h	/^} rules;$/;"	t	typeref:struct:Rules
+sa	libsocket.h	/^	struct sockaddr_in sa;$/;"	m	struct:Server_data	typeref:struct:Server_data::sockaddr_in
+sem_err	errlib.c	/^sem_t sem_err;$/;"	v
+sendMsg	libserver.c	/^int sendMsg(server_data *server, char* buffer){$/;"	f
+sensor	sensor.c	/^int sensor(server_data *server){$/;"	f
+server_data	libsocket.h	/^} server_data; $/;"	t	typeref:struct:Server_data
+simulate	main.c	/^void simulate(char *ip_addr,unsigned int port){$/;"	f
+skipSpaces	sensor.c	/^int skipSpaces(char *buffer){$/;"	f
+sock	libsocket.h	/^	int sock;$/;"	m	struct:Server_data
+translatePlaymode	sensor.c	/^int translatePlaymode(char *token){$/;"	f
+tryConnection	libserver.c	/^int tryConnection(server_data *server){$/;"	f
+valid	rules.h	/^	int valid;$/;"	m	struct:Rule
+waitConnections	main.c	/^void waitConnections(server_data *server){$/;"	f

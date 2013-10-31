@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../blackboard.c" open="1" top="0" tabpos="11">
+		<Cursor position="15778" topLine="601" />
+	</File>
+	<File name="../blackboard.h" open="1" top="0" tabpos="7">
+		<Cursor position="0" topLine="201" />
+	</File>
+	<File name="../errlib.c" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="63" />
+	</File>
+	<File name="../libserver.c" open="1" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../libserver.h" open="1" top="0" tabpos="10">
+		<Cursor position="158" topLine="0" />
+	</File>
+	<File name="../localization.c" open="1" top="0" tabpos="4">
+		<Cursor position="58" topLine="0" />
+	</File>
+	<File name="../localization.h" open="0" top="0" tabpos="0">
+		<Cursor position="858" topLine="21" />
+	</File>
+	<File name="../main.c" open="1" top="1" tabpos="3">
+		<Cursor position="719" topLine="0" />
+	</File>
+	<File name="../rules.c" open="1" top="0" tabpos="1">
+		<Cursor position="3183" topLine="154" />
+	</File>
+	<File name="../rules.h" open="1" top="0" tabpos="2">
+		<Cursor position="747" topLine="13" />
+	</File>
+	<File name="../sensor.c" open="1" top="0" tabpos="6">
+		<Cursor position="262" topLine="0" />
+	</File>
+	<File name="../sensor.h" open="1" top="0" tabpos="8">
+		<Cursor position="0" topLine="35" />
+	</File>
+	<File name="../trajectory.c" open="1" top="0" tabpos="5">
+		<Cursor position="403" topLine="228" />
+	</File>
+</CodeBlocks_layout_file>
