@@ -1,0 +1,541 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AI_H	ai.h	2;"	d
+ALOTOF_PLAYERS	blackboard.h	11;"	d
+APP_NAME	main.c	26;"	d	file:
+A_GOTO_BALL	rules.h	42;"	d
+A_GOTO_MATEx	rules.h	43;"	d
+A_GOTO_OPPONENTGOAL	rules.h	46;"	d
+A_GOTO_OPPONENTx	rules.h	44;"	d
+A_GOTO_TEAMGOAL	rules.h	45;"	d
+Ai_data	blackboard.h	/^typedef struct Ai_data{$/;"	s
+Ai_struct	blackboard.h	/^typedef struct Ai_struct{$/;"	s
+BADFILENAME_ERR	main.c	34;"	d	file:
+BADIP_ERR	main.c	31;"	d	file:
+BADPORT_ERR	main.c	32;"	d	file:
+BADTEAMNAME_ERR	main.c	33;"	d	file:
+BALL	blackboard.h	69;"	d
+BEFORE_KICK_OFF	rules.h	15;"	d
+BEFORE_KICK_OFF	sensor.h	16;"	d
+BEZIER_STEP	trajectory.h	32;"	d
+BIN	Makefile	/^BIN=..\/..\/bin$/;"	m
+BLACKBOARD_H	blackboard.h	2;"	d
+Blackboard_struct	blackboard.h	/^typedef struct Blackboard_struct{$/;"	s
+Body_data	blackboard.h	/^typedef struct Body_data{$/;"	s
+Body_struct	blackboard.h	/^typedef struct Body_struct{$/;"	s
+CORNER_KICK_L	rules.h	24;"	d
+CORNER_KICK_L	sensor.h	25;"	d
+CORNER_KICK_R	rules.h	25;"	d
+CORNER_KICK_R	sensor.h	26;"	d
+CTAGS	Makefile	/^CTAGS=ctags-exuberant -R .$/;"	m
+C_BEZIER	trajectory.h	26;"	d
+C_UN	trajectory.h	22;"	d
+ComputeBezier	trajectory.c	/^void ComputeBezier( Point2D* cp, int numberOfPoints, Point2D* curve )$/;"	f
+CurvePoints	trajectory.h	30;"	d
+DEG_RAD	localization.h	12;"	d
+DIGIT_DECIMAL	trajectory.h	35;"	d
+DROP_BALL	rules.h	30;"	d
+DROP_BALL	sensor.h	31;"	d
+Envir_absdata	blackboard.h	/^typedef struct Envir_absdata{$/;"	s
+Envir_reldata	blackboard.h	/^typedef struct Envir_reldata{$/;"	s
+FALSE	blackboard.h	/^typedef enum {FALSE, TRUE} boolean;$/;"	e	enum:__anon1
+FIELD_HEIGHT	localization.h	10;"	d
+FIELD_LENGTH	localization.h	9;"	d
+FLAGS	Makefile	/^FLAGS= -g -Wall -lpthread -lm$/;"	m
+FLAG_ASSENTE	localization.c	12;"	d	file:
+FLAG_B_0	blackboard.h	62;"	d
+FLAG_B_L_10	blackboard.h	61;"	d
+FLAG_B_L_20	blackboard.h	60;"	d
+FLAG_B_L_30	blackboard.h	59;"	d
+FLAG_B_L_40	blackboard.h	58;"	d
+FLAG_B_L_50	blackboard.h	57;"	d
+FLAG_B_R_10	blackboard.h	63;"	d
+FLAG_B_R_20	blackboard.h	64;"	d
+FLAG_B_R_30	blackboard.h	65;"	d
+FLAG_B_R_40	blackboard.h	66;"	d
+FLAG_B_R_50	blackboard.h	67;"	d
+FLAG_C	blackboard.h	40;"	d
+FLAG_C_B	blackboard.h	55;"	d
+FLAG_C_T	blackboard.h	25;"	d
+FLAG_G_L	blackboard.h	38;"	d
+FLAG_G_L_B	blackboard.h	44;"	d
+FLAG_G_L_T	blackboard.h	35;"	d
+FLAG_G_R	blackboard.h	42;"	d
+FLAG_G_R_B	blackboard.h	45;"	d
+FLAG_G_R_T	blackboard.h	36;"	d
+FLAG_L_0	blackboard.h	37;"	d
+FLAG_L_B	blackboard.h	54;"	d
+FLAG_L_B_10	blackboard.h	46;"	d
+FLAG_L_B_20	blackboard.h	48;"	d
+FLAG_L_B_30	blackboard.h	52;"	d
+FLAG_L_T	blackboard.h	24;"	d
+FLAG_L_T_10	blackboard.h	33;"	d
+FLAG_L_T_20	blackboard.h	29;"	d
+FLAG_L_T_30	blackboard.h	27;"	d
+FLAG_P_L_B	blackboard.h	49;"	d
+FLAG_P_L_C	blackboard.h	39;"	d
+FLAG_P_L_T	blackboard.h	30;"	d
+FLAG_P_R_B	blackboard.h	50;"	d
+FLAG_P_R_C	blackboard.h	41;"	d
+FLAG_P_R_T	blackboard.h	31;"	d
+FLAG_R_0	blackboard.h	43;"	d
+FLAG_R_B	blackboard.h	56;"	d
+FLAG_R_B_10	blackboard.h	47;"	d
+FLAG_R_B_20	blackboard.h	51;"	d
+FLAG_R_B_30	blackboard.h	53;"	d
+FLAG_R_T	blackboard.h	26;"	d
+FLAG_R_T_10	blackboard.h	34;"	d
+FLAG_R_T_20	blackboard.h	32;"	d
+FLAG_R_T_30	blackboard.h	28;"	d
+FLAG_T_0	blackboard.h	18;"	d
+FLAG_T_L_10	blackboard.h	17;"	d
+FLAG_T_L_20	blackboard.h	16;"	d
+FLAG_T_L_30	blackboard.h	15;"	d
+FLAG_T_L_40	blackboard.h	14;"	d
+FLAG_T_L_50	blackboard.h	13;"	d
+FLAG_T_R_10	blackboard.h	19;"	d
+FLAG_T_R_20	blackboard.h	20;"	d
+FLAG_T_R_30	blackboard.h	21;"	d
+FLAG_T_R_40	blackboard.h	22;"	d
+FLAG_T_R_50	blackboard.h	23;"	d
+FREE_KICK_L	rules.h	22;"	d
+FREE_KICK_L	sensor.h	23;"	d
+FREE_KICK_R	rules.h	23;"	d
+FREE_KICK_R	sensor.h	24;"	d
+GOAL_KICK_L	rules.h	26;"	d
+GOAL_KICK_L	sensor.h	27;"	d
+GOAL_KICK_R	rules.h	27;"	d
+GOAL_KICK_R	sensor.h	28;"	d
+GOAL_L	rules.h	28;"	d
+GOAL_L	sensor.h	29;"	d
+GOAL_R	rules.h	29;"	d
+GOAL_R	sensor.h	30;"	d
+GOT_BALL	rules.h	50;"	d
+GOT_BALL_THRES	ai.c	22;"	d	file:
+GOT_BALL_THRES	rules.c	22;"	d	file:
+GetNumber	blackboard.c	/^int GetNumber(blackboard_struct *blackboard){$/;"	f
+GetTeam	blackboard.c	/^char *GetTeam(blackboard_struct *blackboard, char *team){$/;"	f
+Ipotetic_offset	blackboard.h	/^typedef struct Ipotetic_offset{$/;"	s
+KICK_IN_L	rules.h	20;"	d
+KICK_IN_L	sensor.h	21;"	d
+KICK_IN_R	rules.h	21;"	d
+KICK_IN_R	sensor.h	22;"	d
+KICK_OFF_L	rules.h	18;"	d
+KICK_OFF_L	sensor.h	19;"	d
+KICK_OFF_R	rules.h	19;"	d
+KICK_OFF_R	sensor.h	20;"	d
+LIBS	Makefile	/^LIBS=blackboard.c libserver.c libsocket.c errlib.c sensor.c localization.c support_localization.c trajectory.c sender.c rules.c ai.c$/;"	m
+LIBSERVER_H	libserver.h	2;"	d
+LIBSOCKET_H	libsocket.h	2;"	d
+LINE_B	blackboard.h	77;"	d
+LINE_L	blackboard.h	74;"	d
+LINE_R	blackboard.h	75;"	d
+LINE_T	blackboard.h	76;"	d
+LOCALIZATION2D_H_INCLUDED	localization.h	2;"	d
+MAXLINE	errlib.c	20;"	d	file:
+MAX_MSG_LENGTH	libsocket.h	7;"	d
+MAX_MSG_SIZE	libserver.h	13;"	d
+MAX_N_RULES	rules.h	34;"	d
+MAX_RULEFILE_NAME_L	main.c	29;"	d	file:
+MAX_RULE_LENGTH	rules.h	35;"	d
+MAX_TEAMNAME_LENGHT	libserver.h	17;"	d
+MAX_TOKENLENGTH	sensor.c	15;"	d	file:
+NCICLE_OLD	blackboard.c	12;"	d	file:
+NEAR_OPPONENT_GOAL	rules.h	51;"	d
+NEAR_OPPONENT_GOAL_THRESHOLD	ai.c	23;"	d	file:
+N_CONDITIONS	rules.h	36;"	d
+N_FLAGS	libserver.h	15;"	d
+N_PLAYERS	libserver.h	16;"	d
+N_RULES	rules.h	39;"	d
+OFFSIDE_L	rules.h	31;"	d
+OFFSIDE_L	sensor.h	32;"	d
+OFFSIDE_R	rules.h	32;"	d
+OFFSIDE_R	sensor.h	33;"	d
+PLAYER	blackboard.h	68;"	d
+PLAY_ON	rules.h	16;"	d
+PLAY_ON	sensor.h	17;"	d
+PLAY_TIMES	rules.h	13;"	d
+PLAY_TIMES	sensor.h	14;"	d
+PORT	libserver.h	10;"	d
+Point2D	trajectory.h	/^		}Point2D;$/;"	t	typeref:struct:__anon4
+PointOnCubicBezier	trajectory.c	/^Point2D PointOnCubicBezier( Point2D* cp, float t )$/;"	f
+RADIUS_BASE	localization.c	13;"	d	file:
+RADIUS_DOWN_BEZIER	trajectory.h	28;"	d
+RADIUS_UP_BEZIER	trajectory.h	29;"	d
+RAD_DEG	localization.h	13;"	d
+REACH_RADIUS	trajectory.c	19;"	d	file:
+RULES_H	rules.h	2;"	d
+RULE_FILE	main.c	28;"	d	file:
+R_PL	trajectory.h	20;"	d
+R_SAFETY	trajectory.h	21;"	d
+Receive	libsocket.c	/^int Receive(server_data *server, char *buffer){$/;"	f
+Rule	rules.h	/^typedef struct Rule{$/;"	s
+Rules	rules.h	/^typedef struct Rules{$/;"	s
+SENDER_H	sender.h	2;"	d
+SENSE_BODY_STEP_MS	libserver.h	20;"	d
+SENSE_STEP_MS	libserver.h	19;"	d
+SENSOR_H	sensor.h	7;"	d
+SIMULATION_STEP_MS	libserver.h	21;"	d
+STEP	trajectory.h	19;"	d
+STRING_ERR	sensor.c	14;"	d	file:
+Send	libsocket.c	/^int Send( server_data *server, char* buffer ){$/;"	f
+Server_data	libsocket.h	/^typedef struct Server_data{$/;"	s
+TARGET	Makefile	/^TARGET= itagent$/;"	m
+TEAMNAME	main.c	27;"	d	file:
+THRESHOLD	trajectory.h	16;"	d
+THRESHOLD_ANGLE	trajectory.h	17;"	d
+THRESHOLD_TURN	trajectory.h	18;"	d
+TIMEOUT_TIME	libserver.h	12;"	d
+TIME_OVER	rules.h	17;"	d
+TIME_OVER	sensor.h	18;"	d
+TOTALE_COLONNE	localization.h	8;"	d
+TOTALE_RIGHE	localization.h	7;"	d
+TRAINER_PORT	libserver.h	11;"	d
+TRAJECTORY_H	trajectory.h	2;"	d
+TRUE	blackboard.h	/^typedef enum {FALSE, TRUE} boolean;$/;"	e	enum:__anon1
+TimeoutReceive	libsocket.c	/^int TimeoutReceive(server_data *server, char*buffer, struct timeval *t){$/;"	f
+UB	blackboard.h	73;"	d
+UCICLE_TIME	libserver.h	14;"	d
+UF	blackboard.h	71;"	d
+UG	blackboard.h	72;"	d
+UP	blackboard.h	70;"	d
+USAGE_ERR	main.c	30;"	d	file:
+_ERRLIB_H	errlib.h	13;"	d
+a	trajectory.c	/^double a = 0;$/;"	v
+aBall_data	blackboard.h	/^typedef struct aBall_data{$/;"	s
+aFlag_data	blackboard.h	/^typedef struct aFlag_data{$/;"	s
+aPlayer_data	blackboard.h	/^typedef struct aPlayer_data{$/;"	s
+aball_data	blackboard.h	/^} aball_data;$/;"	t	typeref:struct:aBall_data
+absolute	blackboard.h	/^	envir_absdata absolute;$/;"	m	struct:Blackboard_struct
+action	rules.h	/^	int action;$/;"	m	struct:Rule
+action	rules.h	/^	rule action[PLAY_TIMES][MAX_N_RULES];$/;"	m	struct:Rules
+addIn	trajectory.c	/^void addIn(allObstacles *newOb, aplayer_data d, float r)$/;"	f
+addOffset	blackboard.c	/^void addOffset(blackboard_struct *blackboard, ipotetic_offset delta){$/;"	f
+aflag_data	blackboard.h	/^} aflag_data;$/;"	t	typeref:struct:aFlag_data
+agentClock	main.c	/^void agentClock(){$/;"	f
+ai	blackboard.h	/^	ai_struct ai;$/;"	m	struct:Blackboard_struct
+aiStatus	blackboard.c	/^int aiStatus(blackboard_struct *blackboard){$/;"	f
+aiThread	ai.c	/^int aiThread(){$/;"	f
+ai_data	blackboard.h	/^} ai_data;$/;"	t	typeref:struct:Ai_data
+ai_struct	blackboard.h	/^} ai_struct;$/;"	t	typeref:struct:Ai_struct
+allObstacles	trajectory.h	/^		}allObstacles;$/;"	t	typeref:struct:__anon3
+amount_speed	blackboard.h	/^	float amount_speed;$/;"	m	struct:Body_data
+angle	localization.h	/^    float angle;$/;"	m	struct:objet_s
+aplayer_data	blackboard.h	/^} aplayer_data;$/;"	t	typeref:struct:aPlayer_data
+applyOffset	blackboard.c	/^void applyOffset(blackboard_struct *blackboard){$/;"	f
+ball	blackboard.h	/^	aball_data ball;$/;"	m	struct:Envir_absdata
+ball	blackboard.h	/^	rball_data ball;$/;"	m	struct:Envir_reldata
+ball	sensor.h	/^	rball_data ball;$/;"	m	union:obj
+becomeCurved	trajectory.c	/^Point2D becomeCurved(server_data *server, Point2D *curve, aplayer_data *data,$/;"	f
+blackboard	main.c	/^blackboard_struct blackboard;$/;"	v
+blackboardInit	blackboard.c	/^int blackboardInit(blackboard_struct *blackboard){$/;"	f
+blackboard_struct	blackboard.h	/^} blackboard_struct;$/;"	t	typeref:struct:Blackboard_struct
+body	blackboard.h	/^	body_struct body;$/;"	m	struct:Blackboard_struct
+body_angle	blackboard.h	/^	double body_angle;$/;"	m	struct:Body_data
+body_data	blackboard.h	/^} body_data;$/;"	t	typeref:struct:Body_data
+body_face_dir	blackboard.h	/^	float body_face_dir;$/;"	m	struct:aPlayer_data
+body_face_dir	blackboard.h	/^	float body_face_dir;$/;"	m	struct:rPlayer_data
+body_struct	blackboard.h	/^} body_struct;$/;"	t	typeref:struct:Body_struct
+boolean	blackboard.h	/^typedef enum {FALSE, TRUE} boolean;$/;"	t	typeref:enum:__anon1
+calcola_angolazione	localization.c	/^void calcola_angolazione () {$/;"	f
+calcola_angoli	localization.c	/^void calcola_angoli(int palo_1, int palo_2, int scelta) {$/;"	f
+calcola_posizione_giocatori	localization.c	/^aplayer_data calcola_posizione_giocatori (rplayer_data giocatore) {$/;"	f
+calcolo_offset	localization.c	/^boolean calcolo_offset (int pivot, int caso, int palo_1, int palo_2, int scelta) {$/;"	f
+catchcount	blackboard.h	/^	int catchcount;$/;"	m	struct:Body_data
+cerca_minima_distanza	localization.c	/^void cerca_minima_distanza (int * palo_1, int * palo_2, int *scelta) {$/;"	f
+cerca_palo_vicino	localization.c	/^int cerca_palo_vicino (int *vettore_esclusi, int dim_vett) {$/;"	f
+change_viewcount	blackboard.h	/^	int change_viewcount;$/;"	m	struct:Body_data
+checkGotBall	ai.c	/^int checkGotBall(){$/;"	f
+checkNearOpponentGoal	ai.c	/^int checkNearOpponentGoal(){$/;"	f
+checkNewOb	trajectory.c	/^void checkNewOb(p_ob ob, aplayer_data d, int step, aplayer_data *data,$/;"	f
+cleaner	blackboard.c	/^void cleaner(){$/;"	f
+closeConnection	libserver.c	/^int closeConnection(server_data *server){$/;"	f
+colonna1	support_localization.c	/^int colonna1 [7] = {FLAG_L_T_30,FLAG_L_T_20,FLAG_L_T_10,FLAG_L_0,FLAG_L_B_10,FLAG_L_B_20,FLAG_L_B_30};$/;"	v
+colonna10	support_localization.c	/^int colonna10 [2] = {FLAG_T_R_10,FLAG_B_R_10};$/;"	v
+colonna11	support_localization.c	/^int colonna11 [2] = {FLAG_T_R_20,FLAG_B_R_20};$/;"	v
+colonna12	support_localization.c	/^int colonna12 [2] = {FLAG_T_R_30,FLAG_B_R_30};$/;"	v
+colonna13	support_localization.c	/^int colonna13 [3] = {FLAG_P_R_T,FLAG_P_R_C,FLAG_P_R_B};$/;"	v
+colonna14	support_localization.c	/^int colonna14 [2] = {FLAG_T_R_40,FLAG_B_R_40};$/;"	v
+colonna15	support_localization.c	/^int colonna15 [2] = {FLAG_T_R_50,FLAG_B_R_50};$/;"	v
+colonna16	support_localization.c	/^int colonna16 [5] = {FLAG_R_T,FLAG_G_R_T,FLAG_G_R,FLAG_G_R_B,FLAG_R_B};$/;"	v
+colonna17	support_localization.c	/^int colonna17 [7] = {FLAG_R_T_30,FLAG_R_T_20,FLAG_R_T_10,FLAG_R_0,FLAG_R_B_10,FLAG_R_B_20,FLAG_R_B_30};$/;"	v
+colonna2	support_localization.c	/^int colonna2 [5] = {FLAG_L_T,FLAG_G_L_T,FLAG_G_L,FLAG_G_L_B,FLAG_L_B};$/;"	v
+colonna3	support_localization.c	/^int colonna3 [2] = {FLAG_T_L_50,FLAG_B_L_50};$/;"	v
+colonna4	support_localization.c	/^int colonna4 [2] = {FLAG_T_L_40,FLAG_B_L_40};$/;"	v
+colonna5	support_localization.c	/^int colonna5 [3] = {FLAG_P_L_T,FLAG_P_L_C,FLAG_P_L_B};$/;"	v
+colonna6	support_localization.c	/^int colonna6 [2] = {FLAG_T_L_30,FLAG_B_L_30};$/;"	v
+colonna7	support_localization.c	/^int colonna7 [2] = {FLAG_T_L_20,FLAG_B_L_20};$/;"	v
+colonna8	support_localization.c	/^int colonna8 [2] = {FLAG_T_L_10,FLAG_B_L_10};$/;"	v
+colonna9	support_localization.c	/^int colonna9 [5] = {FLAG_T_0,FLAG_C_T,FLAG_C,FLAG_C_B,FLAG_B_0};$/;"	v
+command	main.c	/^void command(server_data *server){$/;"	f
+conditions	rules.h	/^	int conditions[N_CONDITIONS];$/;"	m	struct:Rule
+conn	libserver.c	/^sem_t conn;$/;"	v
+copyAPlayer	blackboard.c	/^void copyAPlayer(aplayer_data *dst, aplayer_data *src){$/;"	f
+copyRPlayer	blackboard.c	/^void copyRPlayer(rplayer_data *dst, rplayer_data *src){$/;"	f
+createServer	libsocket.c	/^server_data *createServer( char* addr, int port){$/;"	f
+ctrlDist	trajectory.c	/^float ctrlDist(float x, float y, float x2, float y2)$/;"	f
+ctrlObstacles	trajectory.c	/^allObstacles ctrlObstacles(double x0, double y0, double x1, double y1, int *nPlayers)$/;"	f
+d_alfa	blackboard.h	/^	double d_alfa;$/;"	m	struct:Ipotetic_offset
+d_x	blackboard.h	/^	float d_x;$/;"	m	struct:Ipotetic_offset
+d_y	blackboard.h	/^	float d_y;$/;"	m	struct:Ipotetic_offset
+daemon_proc	errlib.c	/^int daemon_proc = 0; \/* set to 0 if stdout\/stderr available, else set to 1 *\/$/;"	v
+dashcount	blackboard.h	/^	int dashcount;$/;"	m	struct:Body_data
+data	blackboard.h	/^	ai_data data;$/;"	m	struct:Ai_struct
+data	blackboard.h	/^	body_data data;$/;"	m	struct:Body_struct
+delta	blackboard.h	/^	ipotetic_offset delta;$/;"	m	struct:Body_struct
+dest_alfa	blackboard.h	/^	float dest_alfa;$/;"	m	struct:Ai_data
+dest_x	blackboard.h	/^	float dest_x;$/;"	m	struct:Ai_data
+dest_y	blackboard.h	/^	float dest_y;$/;"	m	struct:Ai_data
+destroyServer	libsocket.c	/^int destroyServer(server_data *server){$/;"	f
+dir_change	blackboard.h	/^	float dir_change;$/;"	m	struct:aBall_data
+dir_change	blackboard.h	/^	float dir_change;$/;"	m	struct:aPlayer_data
+dir_change	blackboard.h	/^	float dir_change;$/;"	m	struct:rBall_data
+dir_change	blackboard.h	/^	float dir_change;$/;"	m	struct:rFlag_data
+dir_change	blackboard.h	/^	float dir_change;$/;"	m	struct:rPlayer_data
+dirchange	blackboard.h	/^	float dirchange;$/;"	m	struct:aFlag_data
+direction	blackboard.h	/^	float direction;$/;"	m	struct:aBall_data
+direction	blackboard.h	/^	float direction;$/;"	m	struct:aPlayer_data
+direction	blackboard.h	/^	float direction;$/;"	m	struct:rBall_data
+direction	blackboard.h	/^	float direction;$/;"	m	struct:rFlag_data
+direction	blackboard.h	/^	float direction;$/;"	m	struct:rPlayer_data
+direction_speed	blackboard.h	/^	float direction_speed;$/;"	m	struct:Body_data
+dist_change	blackboard.h	/^	float dist_change;$/;"	m	struct:aBall_data
+dist_change	blackboard.h	/^	float dist_change;$/;"	m	struct:aPlayer_data
+dist_change	blackboard.h	/^	float dist_change;$/;"	m	struct:rBall_data
+dist_change	blackboard.h	/^	float dist_change;$/;"	m	struct:rFlag_data
+dist_change	blackboard.h	/^	float dist_change;$/;"	m	struct:rPlayer_data
+dist_x	localization.h	/^    float dist_x;$/;"	m	struct:objet_s
+dist_y	localization.h	/^    float dist_y;$/;"	m	struct:objet_s
+distance	ai.c	/^double distance(double x1, double y1, double x2, double y2){$/;"	f
+distance	blackboard.h	/^	float distance;$/;"	m	struct:rBall_data
+distance	blackboard.h	/^	float distance;$/;"	m	struct:rFlag_data
+distance	blackboard.h	/^	float distance;$/;"	m	struct:rPlayer_data
+distchange	blackboard.h	/^	float distchange;$/;"	m	struct:aFlag_data
+doppia_colonna	localization.c	/^void doppia_colonna(int palo_1, int palo_2, int scelta) {$/;"	f
+doppia_riga	localization.c	/^void doppia_riga (int palo_1, int palo_2, int scelta) {$/;"	f
+effort	blackboard.h	/^	float effort;$/;"	m	struct:Body_data
+envir_absdata	blackboard.h	/^} envir_absdata;$/;"	t	typeref:struct:Envir_absdata
+envir_reldata	blackboard.h	/^} envir_reldata;$/;"	t	typeref:struct:Envir_reldata
+eq_id	trajectory.h	/^			p_ob eq_id[ALOTOF_PLAYERS];$/;"	m	struct:__anon3
+err_doit	errlib.c	/^static void err_doit (int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_init	errlib.c	/^void err_init (){$/;"	f
+err_msg	errlib.c	/^void err_msg (const char *fmt, ...)$/;"	f
+err_quit	errlib.c	/^void err_quit (const char *fmt, ...)$/;"	f
+err_ret	errlib.c	/^void err_ret (const char *fmt, ...)$/;"	f
+err_sys	errlib.c	/^void err_sys (const char *fmt, ...)$/;"	f
+errore_pos	localization.c	/^int errore_pos;$/;"	v
+escludi	localization.c	/^boolean escludi (int *vett_esclusi, int dim_vett, int palo) {$/;"	f
+findAllPoints	trajectory.c	/^void findAllPoints(Point2D start, Point2D end, allObstacles newOb, Point2D *allPoints)$/;"	f
+findBezierPoints	trajectory.c	/^void findBezierPoints(Point2D* p, Point2D start, Point2D end, allObstacles newOb, Point2D *b)$/;"	f
+findPoint	trajectory.c	/^double findPoint(double xa, double ya, double xb, double yb, double d, char c)$/;"	f
+findRadius	trajectory.c	/^float findRadius(float x0, float y0, float xc, float yc)$/;"	f
+flag	sensor.h	/^	rflag_data flag;$/;"	m	union:obj
+flags	blackboard.h	/^	aflag_data flags[N_FLAGS];$/;"	m	struct:Envir_absdata
+flags	blackboard.h	/^	rflag_data flags[N_FLAGS];$/;"	m	struct:Envir_reldata
+fprintRules	rules.c	/^void fprintRules(rules *it_rules, FILE *dest){$/;"	f
+fromMe	trajectory.h	/^			float fromMe;$/;"	m	struct:__anon2
+fromTo	trajectory.c	/^int fromTo(server_data *server, double x, double y, double ang, double x2, double y2, double ang2, boolean modify_ang)$/;"	f
+getAbsBall	blackboard.c	/^aball_data getAbsBall(blackboard_struct *blackboard){$/;"	f
+getAbsFlag	blackboard.c	/^aflag_data getAbsFlag(int flag,blackboard_struct *blackboard){$/;"	f
+getAbsPlayers	blackboard.c	/^void getAbsPlayers(blackboard_struct *blackboard, int *num, aplayer_data *tempplayers){$/;"	f
+getAi	blackboard.c	/^ai_data getAi(blackboard_struct *blackboard){$/;"	f
+getBody	blackboard.c	/^body_data getBody(blackboard_struct *blackboard){$/;"	f
+getOffset	blackboard.c	/^ipotetic_offset getOffset(blackboard_struct *blackboard){$/;"	f
+getPLaymode	blackboard.c	/^int getPLaymode(blackboard_struct *blackboard){$/;"	f
+getRelBall	blackboard.c	/^rball_data getRelBall(blackboard_struct *blackboard){$/;"	f
+getRelFlag	blackboard.c	/^rflag_data getRelFlag(int flag,blackboard_struct *blackboard){$/;"	f
+getRelPlayers	blackboard.c	/^void getRelPlayers(blackboard_struct *blackboard, int *num, rplayer_data *tempplayers){$/;"	f
+getSide	blackboard.c	/^char getSide(blackboard_struct *blackboard){$/;"	f
+getTime	blackboard.c	/^int getTime(blackboard_struct *blackboard){$/;"	f
+getToken	sensor.c	/^int getToken(char *buffer, char *token){$/;"	f
+head_angle	blackboard.h	/^	float head_angle;$/;"	m	struct:Body_data
+head_face_dir	blackboard.h	/^	float head_face_dir;$/;"	m	struct:aPlayer_data
+head_face_dir	blackboard.h	/^	float head_face_dir;$/;"	m	struct:rPlayer_data
+id	localization.h	/^    int id;$/;"	m	struct:objet_s
+inCircle	trajectory.c	/^boolean inCircle(float x, float y, float xc, float yc, float R)$/;"	f
+init	support_localization.c	/^void init () {$/;"	f
+initNewOb	trajectory.c	/^allObstacles initNewOb(p_ob ob)$/;"	f
+initRules	rules.c	/^void initRules(rules *it_rules){$/;"	f
+insertNewOb	trajectory.c	/^void insertNewOb(allObstacles ob, allObstacles *newOb)$/;"	f
+int2line	trajectory.c	/^Point2D int2line(float alpha, float beta, float a, float b, float xc, float yc)$/;"	f
+intCircleLine	trajectory.c	/^void intCircleLine(float xc, float yc, float R, float alpha,$/;"	f
+intOtherCircles	trajectory.c	/^boolean intOtherCircles(float alpha, float beta, float x0, float y0,$/;"	f
+intRadius	trajectory.c	/^float intRadius(p_ob ob, int step, aplayer_data d1, aplayer_data d2, Point2D start)$/;"	f
+io	localization.c	/^body_data io;$/;"	v
+ipotetic_offset	blackboard.h	/^} ipotetic_offset;$/;"	t	typeref:struct:Ipotetic_offset
+isNewOb	trajectory.c	/^boolean isNewOb(allObstacles newOb, aplayer_data d)$/;"	f
+it_rules	main.c	/^rules it_rules;$/;"	v
+kickcount	blackboard.h	/^	int kickcount;$/;"	m	struct:Body_data
+last_act	trajectory.c	/^char last_act ='d';$/;"	v
+localization	localization.c	/^int localization()$/;"	f
+main	main.c	/^int main(int argc, char * argv[]) {$/;"	f
+modify_kick	trajectory.c	/^void modify_kick(double *power, double *direction)$/;"	f
+movecount	blackboard.h	/^	int movecount;$/;"	m	struct:Body_data
+mutex	blackboard.h	/^	sem_t mutex;$/;"	m	struct:Ai_struct
+mutex	blackboard.h	/^	sem_t mutex;$/;"	m	struct:Blackboard_struct
+mutex	blackboard.h	/^	sem_t mutex;$/;"	m	struct:Body_struct
+mutex	blackboard.h	/^	sem_t mutex;$/;"	m	struct:Envir_absdata
+mutex	blackboard.h	/^	sem_t mutex;$/;"	m	struct:Envir_reldata
+n_eq	trajectory.h	/^			int n_eq;$/;"	m	struct:__anon3
+n_players	blackboard.h	/^	int n_players;$/;"	m	struct:Envir_absdata
+n_players	blackboard.h	/^	int n_players;$/;"	m	struct:Envir_reldata
+name	localization.h	/^    char *name;$/;"	m	struct:objet_s
+nopAi	blackboard.c	/^void nopAi(blackboard_struct *blackboard){$/;"	f
+now	blackboard.h	/^	int now;$/;"	m	struct:Blackboard_struct
+num_pali	localization.h	/^int num_pali;$/;"	m	struct:vett_indici_s
+number	blackboard.h	/^	int number;$/;"	m	struct:Blackboard_struct
+number	blackboard.h	/^	int number;$/;"	m	struct:aPlayer_data
+number	blackboard.h	/^	int number;$/;"	m	struct:rPlayer_data
+obj	sensor.h	/^typedef union obj {$/;"	u
+obj	sensor.h	/^} obj;$/;"	t	typeref:union:obj
+objet	localization.h	/^} objet;$/;"	t	typeref:struct:objet_s
+objet_s	localization.h	/^typedef struct objet_s {$/;"	s
+offset	localization.h	/^} offset;$/;"	t	typeref:struct:offset_s
+offset_s	localization.h	/^typedef struct offset_s {$/;"	s
+offset_x	localization.h	/^float offset_x;$/;"	m	struct:offset_s
+offset_y	localization.h	/^float offset_y;$/;"	m	struct:offset_s
+p_ob	trajectory.h	/^		}p_ob;$/;"	t	typeref:struct:__anon2
+parse	sensor.c	/^int parse(char *mex){$/;"	f
+parseHear	sensor.c	/^int parseHear(char *mex){$/;"	f
+parseInit	sensor.c	/^int parseInit(char *mex){$/;"	f
+parseReconnect	sensor.c	/^int parseReconnect(char *mex){$/;"	f
+parseRule	rules.c	/^int parseRule(char *string, rule *location){$/;"	f
+parseRules	rules.c	/^int parseRules(rules *it_rules, FILE *file){$/;"	f
+parseSee	sensor.c	/^int parseSee(char *mex){$/;"	f
+parseSeeObj	sensor.c	/^int parseSeeObj(char *mex, int time){$/;"	f
+parseSeeObjName	sensor.c	/^int parseSeeObjName(char *mex, obj *tempobj){$/;"	f
+player	sensor.h	/^	rplayer_data player;$/;"	m	union:obj
+players	blackboard.h	/^	aplayer_data players[ALOTOF_PLAYERS];$/;"	m	struct:Envir_absdata
+players	blackboard.h	/^	rplayer_data players[ALOTOF_PLAYERS];$/;"	m	struct:Envir_reldata
+playmode	blackboard.h	/^	int playmode;$/;"	m	struct:Blackboard_struct
+pointInCircle	trajectory.c	/^boolean pointInCircle(Point2D p, int nPlayers, aplayer_data *data)$/;"	f
+precision	blackboard.h	/^	float precision;$/;"	m	struct:Ipotetic_offset
+presenti	localization.h	/^int presenti;$/;"	m	struct:vett_indici_s
+printAbsFlags	blackboard.c	/^int printAbsFlags(blackboard_struct *blackboard,char *buffer){$/;"	f
+printRelFlags	blackboard.c	/^int printRelFlags(blackboard_struct *blackboard,char *buffer){$/;"	f
+printRules	rules.c	/^void printRules(rules *it_rules){$/;"	f
+r	trajectory.h	/^			float r;$/;"	m	struct:__anon2
+rBall_data	blackboard.h	/^typedef struct rBall_data{$/;"	s
+rFlag_data	blackboard.h	/^typedef struct rFlag_data{$/;"	s
+rPlayer_data	blackboard.h	/^typedef struct rPlayer_data{$/;"	s
+r_sem	blackboard.h	/^	sem_t r_sem;$/;"	m	struct:Ai_struct
+r_sem	blackboard.h	/^	sem_t r_sem;$/;"	m	struct:Blackboard_struct
+r_sem	blackboard.h	/^	sem_t r_sem;$/;"	m	struct:Body_struct
+r_sem	blackboard.h	/^	sem_t r_sem;$/;"	m	struct:Envir_absdata
+r_sem	blackboard.h	/^	sem_t r_sem;$/;"	m	struct:Envir_reldata
+rball_data	blackboard.h	/^} rball_data;$/;"	t	typeref:struct:rBall_data
+readers	blackboard.h	/^	int readers;$/;"	m	struct:Ai_struct
+readers	blackboard.h	/^	int readers;$/;"	m	struct:Blackboard_struct
+readers	blackboard.h	/^	int readers;$/;"	m	struct:Body_struct
+readers	blackboard.h	/^	int readers;$/;"	m	struct:Envir_absdata
+readers	blackboard.h	/^	int readers;$/;"	m	struct:Envir_reldata
+receiveMsg	libserver.c	/^int receiveMsg(server_data *server, char* buffer){$/;"	f
+receiveTMsg	libserver.c	/^int receiveTMsg(server_data *server, char* buffer, struct timeval *t){$/;"	f
+relative	blackboard.h	/^	envir_reldata relative;$/;"	m	struct:Blackboard_struct
+resetOffset	blackboard.c	/^void resetOffset(blackboard_struct *blackboard){$/;"	f
+rflag_data	blackboard.h	/^} rflag_data;$/;"	t	typeref:struct:rFlag_data
+riga1	support_localization.c	/^int riga1 [11] = {FLAG_T_L_50,FLAG_T_L_40,FLAG_T_L_30,FLAG_T_L_20,FLAG_T_L_10,FLAG_T_0,FLAG_T_R_10,FLAG_T_R_20,FLAG_T_R_30,FLAG_T_R_40,FLAG_T_R_50};$/;"	v
+riga10	support_localization.c	/^int riga10 [4] = {FLAG_L_B_20,FLAG_P_L_B,FLAG_P_R_B,FLAG_R_B_20};$/;"	v
+riga11	support_localization.c	/^int riga11 [2] = {FLAG_L_B_30,FLAG_R_B_30};$/;"	v
+riga12	support_localization.c	/^int riga12 [3] = {FLAG_L_B,FLAG_C_B,FLAG_R_B};$/;"	v
+riga13	support_localization.c	/^int riga13 [11] = {FLAG_B_L_50,FLAG_B_L_40,FLAG_B_L_30,FLAG_B_L_20,FLAG_B_L_10,FLAG_B_0,FLAG_B_R_10,FLAG_B_R_20,FLAG_B_R_30,FLAG_B_R_40,FLAG_B_R_50};$/;"	v
+riga2	support_localization.c	/^int riga2 [3] = {FLAG_L_T,FLAG_C_T,FLAG_R_T};$/;"	v
+riga3	support_localization.c	/^int riga3 [2] = {FLAG_L_T_30, FLAG_R_T_30};$/;"	v
+riga4	support_localization.c	/^int riga4 [4] = {FLAG_L_T_20,FLAG_P_L_T,FLAG_P_R_T,FLAG_R_T_20};$/;"	v
+riga5	support_localization.c	/^int riga5 [2] = {FLAG_L_T_10,FLAG_R_T_10};$/;"	v
+riga6	support_localization.c	/^int riga6 [2] = {FLAG_G_L_T,FLAG_G_R_T};$/;"	v
+riga7	support_localization.c	/^int riga7 [7] = {FLAG_L_0,FLAG_G_L,FLAG_P_L_C,FLAG_C,FLAG_P_R_C,FLAG_G_R,FLAG_R_0};$/;"	v
+riga8	support_localization.c	/^int riga8 [2] = {FLAG_G_L_B,FLAG_G_R_B};$/;"	v
+riga9	support_localization.c	/^int riga9 [2] = {FLAG_L_B_10,FLAG_R_B_10};$/;"	v
+rplayer_data	blackboard.h	/^} rplayer_data;$/;"	t	typeref:struct:rPlayer_data
+rule	rules.h	/^} rule;$/;"	t	typeref:struct:Rule
+rules	rules.h	/^} rules;$/;"	t	typeref:struct:Rules
+s_ai	main.c	/^sem_t s_cleaner, s_localization,s_trajectory, s_ai;$/;"	v
+s_aiComplete	main.c	/^sem_t s_localizationComplete,s_seeParsed, s_aiComplete, s_trajectoryComplete, s_cleanerComplete;$/;"	v
+s_cleaner	main.c	/^sem_t s_cleaner, s_localization,s_trajectory, s_ai;$/;"	v
+s_cleanerComplete	main.c	/^sem_t s_localizationComplete,s_seeParsed, s_aiComplete, s_trajectoryComplete, s_cleanerComplete;$/;"	v
+s_localization	main.c	/^sem_t s_cleaner, s_localization,s_trajectory, s_ai;$/;"	v
+s_localizationComplete	main.c	/^sem_t s_localizationComplete,s_seeParsed, s_aiComplete, s_trajectoryComplete, s_cleanerComplete;$/;"	v
+s_seeParsed	main.c	/^sem_t s_localizationComplete,s_seeParsed, s_aiComplete, s_trajectoryComplete, s_cleanerComplete;$/;"	v
+s_trajectory	main.c	/^sem_t s_cleaner, s_localization,s_trajectory, s_ai;$/;"	v
+s_trajectoryComplete	main.c	/^sem_t s_localizationComplete,s_seeParsed, s_aiComplete, s_trajectoryComplete, s_cleanerComplete;$/;"	v
+sa	libsocket.h	/^	struct sockaddr_in sa;$/;"	m	struct:Server_data	typeref:struct:Server_data::sockaddr_in
+saycount	blackboard.h	/^	int saycount;$/;"	m	struct:Body_data
+scelta	localization.c	/^int scelta;$/;"	v
+sem_err	errlib.c	/^sem_t sem_err;$/;"	v
+sendAction	sender.c	/^int sendAction(server_data *server, char *buffer){$/;"	f
+sendMsg	libserver.c	/^int sendMsg(server_data *server, char* buffer){$/;"	f
+sensor	sensor.c	/^int sensor(server_data *server){$/;"	f
+server_data	libsocket.h	/^} server_data; $/;"	t	typeref:struct:Server_data
+setTime	blackboard.c	/^int setTime(blackboard_struct *blackboard, int time){$/;"	f
+setTurn	trajectory.c	/^double setTurn(double a, double ang)$/;"	f
+side	blackboard.h	/^	char side;$/;"	m	struct:Blackboard_struct
+sign	support_localization.c	/^int sign(float a) {$/;"	f
+skipSpaces	sensor.c	/^int skipSpaces(char *buffer){$/;"	f
+sock	libsocket.h	/^	int sock;$/;"	m	struct:Server_data
+sort	trajectory.c	/^void sort(p_ob *array, int begin, int end)$/;"	f
+stamina	blackboard.h	/^	float stamina;$/;"	m	struct:Body_data
+swap	trajectory.c	/^void swap(p_ob *array, p_ob *array2)$/;"	f
+team	blackboard.h	/^	char team[MAX_TEAMNAME_LENGHT+1];$/;"	m	struct:Blackboard_struct
+team	blackboard.h	/^	char team[MAX_TEAMNAME_LENGHT+1];$/;"	m	struct:aPlayer_data
+team	blackboard.h	/^	char team[MAX_TEAMNAME_LENGHT+1];$/;"	m	struct:rPlayer_data
+team	localization.h	/^    char *team;$/;"	m	struct:objet_s
+time	blackboard.h	/^	int time;$/;"	m	struct:Body_data
+time	blackboard.h	/^	int time;$/;"	m	struct:aBall_data
+time	blackboard.h	/^	int time;$/;"	m	struct:aFlag_data
+time	blackboard.h	/^	int time;$/;"	m	struct:aPlayer_data
+time	blackboard.h	/^	int time;$/;"	m	struct:rBall_data
+time	blackboard.h	/^	int time;$/;"	m	struct:rFlag_data
+time	blackboard.h	/^	int time;$/;"	m	struct:rPlayer_data
+tolerance_angle	trajectory.c	/^boolean tolerance_angle(double ang, double ang2)$/;"	f
+trajectory	trajectory.c	/^void trajectory(server_data *server){$/;"	f
+trajectory_thread	trajectory.c	/^void trajectory_thread(server_data *server){$/;"	f
+translatePlaymode	sensor.c	/^int translatePlaymode(char *token){$/;"	f
+trova_giocatori	localization.c	/^void trova_giocatori () {$/;"	f
+trova_io	localization.c	/^int trova_io (int modalita) {$/;"	f
+trova_palla	localization.c	/^void trova_palla () {$/;"	f
+tryConnection	libserver.c	/^int tryConnection(server_data *server){$/;"	f
+turn_neckcount	blackboard.h	/^	int turn_neckcount;$/;"	m	struct:Body_data
+turncount	blackboard.h	/^	int turncount;$/;"	m	struct:Body_data
+updateAbsBall	blackboard.c	/^void updateAbsBall(blackboard_struct *blackboard, aball_data data){$/;"	f
+updateAbsFlag	blackboard.c	/^void updateAbsFlag(int flag, blackboard_struct *blackboard, aflag_data data){$/;"	f
+updateAbsPlayer	blackboard.c	/^void updateAbsPlayer(blackboard_struct *blackboard, aplayer_data data){$/;"	f
+updateAi	blackboard.c	/^void updateAi(blackboard_struct *blackboard, ai_data data){$/;"	f
+updateBody	blackboard.c	/^void updateBody(blackboard_struct *blackboard, body_data data){$/;"	f
+updateNumber	blackboard.c	/^void updateNumber(blackboard_struct *blackboard, int num){$/;"	f
+updatePLaymode	blackboard.c	/^void updatePLaymode(blackboard_struct *blackboard, int playmode){$/;"	f
+updateRelBall	blackboard.c	/^void updateRelBall(blackboard_struct *blackboard, rball_data data){$/;"	f
+updateRelFlag	blackboard.c	/^void updateRelFlag(int flag, blackboard_struct *blackboard, rflag_data data){$/;"	f
+updateRelPlayer	blackboard.c	/^void updateRelPlayer(blackboard_struct *blackboard, rplayer_data data){$/;"	f
+updateSide	blackboard.c	/^void updateSide(blackboard_struct *blackboard, char side){$/;"	f
+updateTeam	blackboard.c	/^void updateTeam(blackboard_struct *blackboard, char *team){$/;"	f
+valid	blackboard.h	/^	int valid;$/;"	m	struct:Ai_struct
+valid	rules.h	/^	int valid;$/;"	m	struct:Rule
+valuateSituation	ai.c	/^int valuateSituation(int *situation){$/;"	f
+vett	localization.h	/^int *vett;$/;"	m	struct:vett_indici_s
+vett_angoli_interni	localization.h	/^float vett_angoli_interni[3];$/;"	v
+vett_base_colonne	localization.h	/^vett_indici vett_base_colonne [TOTALE_COLONNE];$/;"	v
+vett_base_righe	localization.h	/^vett_indici vett_base_righe[TOTALE_RIGHE];$/;"	v
+vett_indici	localization.h	/^} vett_indici;$/;"	t	typeref:struct:vett_indici_s
+vett_indici_s	localization.h	/^typedef struct vett_indici_s{$/;"	s
+vett_offset	localization.h	/^offset vett_offset [N_FLAGS];$/;"	v
+x	blackboard.h	/^	float x;$/;"	m	struct:Body_data
+x	blackboard.h	/^	float x;$/;"	m	struct:aBall_data
+x	blackboard.h	/^	float x;$/;"	m	struct:aFlag_data
+x	blackboard.h	/^	float x;$/;"	m	struct:aPlayer_data
+x	trajectory.h	/^			float x;$/;"	m	struct:__anon4
+x1	trajectory.h	/^			float x1;$/;"	m	struct:__anon2
+x2	trajectory.h	/^			float x2;$/;"	m	struct:__anon2
+xc	trajectory.h	/^			float xc;$/;"	m	struct:__anon2
+y	blackboard.h	/^	float y;$/;"	m	struct:Body_data
+y	blackboard.h	/^	float y;$/;"	m	struct:aBall_data
+y	blackboard.h	/^	float y;$/;"	m	struct:aFlag_data
+y	blackboard.h	/^	float y;$/;"	m	struct:aPlayer_data
+y	trajectory.h	/^			float y;$/;"	m	struct:__anon4
+y1	trajectory.h	/^			float y1;$/;"	m	struct:__anon2
+y2	trajectory.h	/^			float y2;$/;"	m	struct:__anon2
+yc	trajectory.h	/^			float yc;$/;"	m	struct:__anon2
